@@ -1,36 +1,6 @@
-# Java
-*.class
+# Ignore Gradle project-specific cache directory
+.gradle
 
-# JD
-debug*
-
-# Idea
-.idea/
-out/
-*.ipr
-*.iml
-*.iws
-
-# Eclipse
-.settings/
-classes/
-.classpath
-.project
-
-# Mac
-.DS_Store
-
-# Windows
-Thumbs.db
-
-# Maven
-log/
-target/
-
-# Gradle
-.gradle/
-build/
-!gradle/wrapper/*
-
-# WinMerge
-*.bak
+# Ignore Gradle build output directory
+build
+/bin/

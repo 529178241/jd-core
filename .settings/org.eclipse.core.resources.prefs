@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//src/test/java/org/jd/core/v1/ClassFileToJavaSourceTest.java=UTF-8
+encoding//src/test/java/org/jd/core/v1/JarFileToJavaSourceTest.java=UTF-8
+encoding//src/test/resources/java/org/jd/core/test/Basic.java=UTF-8

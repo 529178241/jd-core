@@ -33,4 +33,8 @@ public class Types<T extends Type> extends DefaultList<T> implements BaseType {
     public void accept(TypeVisitor visitor) {
         visitor.visit(this);
     }
+    @Override
+    public  T getFirst() {
+        return (T)this;
+    }
 }

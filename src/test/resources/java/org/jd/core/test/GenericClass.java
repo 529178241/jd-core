@@ -22,15 +22,15 @@ public class GenericClass<T1,                                                   
                      T7 extends Map<?, ?>,
                      T8 extends Map<? extends Number, ? super Serializable>,
                      T9 extends T8>
-        extends ListImpl<T7>
+//        extends ListImpl<T7>
         implements Serializable, Comparable<T1> {
 
-    public List<List<? extends GenericClass>> list1 = new ListImpl<>();
+//    public List<List<? extends GenericClass>> list1 = new ListImpl<>();
     public List<List<? super GenericClass>> list2;
 
     public GenericClass() {
-        super(10);
-        list2 = new ListImpl<>();
+//        super(10);
+//        list2 = new ListImpl<>();
     }
 
     public <T> void fromArrayToCollection(T[] a, Collection<T> c) {
@@ -56,8 +56,8 @@ public class GenericClass<T1,                                                   
     public int scopesAndVariables(int i) {
         int result;
 
-        List<String> as = new ListImpl<>(i + 1);
-        System.out.println(as);
+//        List<String> as = new ListImpl<>(i + 1);
+//        System.out.println(as);
 
         {
             int j = i;
@@ -69,8 +69,8 @@ public class GenericClass<T1,                                                   
         }
         {
             int k = i;
-            List<Double> l = new ListImpl<>(k + 3);
-            System.out.println(l);
+//            List<Double> l = new ListImpl<>(k + 3);
+//            System.out.println(l);
             int kk = 456;
             System.out.println(kk);
             result = 2;
